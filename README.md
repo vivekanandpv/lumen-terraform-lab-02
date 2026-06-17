@@ -1,6 +1,6 @@
 1. Create the S3 Bucket & DynamoDB Table
     bucket         = "vivek-234121221-rrn"
-    key            = "envs/foo/terraform.tfstate"
+    key            = "envs/demo-state/terraform.tfstate"
     encrypt        = true
 
     dynamodb_table = "tfstate-lock"

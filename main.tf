@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket         = "vivek-234121221-rrn"
-    key            = "envs/dev/terraform.tfstate"
+    key            = "envs/demo-state/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "tfstate-lock"
